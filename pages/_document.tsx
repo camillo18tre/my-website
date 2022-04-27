@@ -1,5 +1,6 @@
 import React from 'react';
 import { Html, Head, Main, NextScript } from 'next/document';
+import { MainLayout } from '../layouts/MainLayout';
 
 const MyDocument = () => {
   return (
