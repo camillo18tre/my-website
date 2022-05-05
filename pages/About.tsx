@@ -1,6 +1,8 @@
-const About = () => {
+import type { NextPage } from 'next';
+
+const About: NextPage = () => {
   return (
-    <div className="h-full flex">
+    <div className="flex h-full">
       <div className="flex items-center">
         <div>
           <h1 className="mb-5">About</h1>
