@@ -21,16 +21,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex items-center h-full md:pl-20">
+      <main className="flex items-center flex-1 h-full md:pl-20">
         <div className="text-3xl">
           <p className="mb-2">My name is Camillo Alexandre Bovio.</p>
-          <h1 className="mb-5">
+          <h1 className="mb-10">
             I’m a web designer, UI/UX and frontend developer <br />
             based in Milano (Italia).
           </h1>
-          <Link href="/About">
-            <a className="text-base hover:underline">More about me</a>
-          </Link>
+          <div className="flex gap-10">
+            <Link href="/about">
+              <a className="text-base hover:underline">More about me</a>
+            </Link>
+            <Link href="/skills">
+              <a className="text-base hover:underline">Check my skills</a>
+            </Link>
+          </div>
         </div>
       </main>
     </>

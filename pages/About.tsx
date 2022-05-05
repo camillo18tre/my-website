@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 
 const About: NextPage = () => {
   return (
-    <div className="flex h-full">
+    <div className="flex flex-1">
       <div className="flex items-center">
         <div>
           <h1 className="mb-5">About</h1>
