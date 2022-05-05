@@ -8,9 +8,9 @@ interface MainLayoutProps {
 
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="flex h-screen flex-col justify-between">
+    <div className="flex flex-col justify-between min-h-screen">
       <Navbar />
-      <div className="p-5 lg:px-20 flex-1">{children}</div>
+      <div className="flex flex-col flex-1 p-5 lg:px-20">{children}</div>
       <Footer />
     </div>
   );
