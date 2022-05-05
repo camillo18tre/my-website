@@ -9,7 +9,7 @@ export const HamburgerIcon: React.FC<HamburgerIconProps> = ({
 }) => {
   return (
     <button
-      className="block xl:hidden cursor-pointer"
+      className="relative z-10 block cursor-pointer lg:hidden"
       onClick={() => setIsOpen(!isOpen)}
     >
       {isOpen ? 'Close' : 'Menu'}
