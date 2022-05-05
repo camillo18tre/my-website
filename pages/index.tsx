@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <div className="text-3xl">
           <p className="mb-2">My name is Camillo Alexandre Bovio.</p>
           <h1 className="mb-5">
-            I’m a web designer and frontend developer <br />
+            I’m a web designer, UI/UX and frontend developer <br />
             based in Milano (Italia).
           </h1>
           <Link href="/About">
